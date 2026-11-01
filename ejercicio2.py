@@ -52,11 +52,11 @@ else:
   
 resumen = f"""
 =====================================
-    Positivos:         {positivos}
-    Negativos:         {negativos}
-    Suma de positivos: {sumaMayores}
-    suma de negativos: {sumaMenores}
-    Numero mayor:      {mayor}
+      Positivos:         {positivos}
+      Negativos:         {negativos}
+      Suma de positivos: {sumaMayores}
+      suma de negativos: {sumaMenores}
+      Numero mayor:      {mayor}
 =====================================
 """
 
