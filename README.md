@@ -10,6 +10,7 @@ No setup needed. Each badge opens the file in a free online Python editor and ru
 | --- | --- |
 | [`ejercicio1.py`](./ejercicio1.py) | [![Run in Python Compiler](https://pythoncompiler.io/badge-run.svg)](https://pythoncompiler.io/?gh=J-Manuel-RC/python-practice/main/ejercicio1.py) |
 | [`ejercicio2.py`](./ejercicio2.py) | [![Run in Python Compiler](https://pythoncompiler.io/badge-run.svg)](https://pythoncompiler.io/?gh=J-Manuel-RC/python-practice/main/ejercicio2.py) |
+| [`ejercicio3.py`](./ejercicio3.py) | [![Run in Python Compiler](https://pythoncompiler.io/badge-run.svg)](https://pythoncompiler.io/?gh=J-Manuel-RC/python-practice/main/ejercicio3.py) |
 
 Made with [pythoncompiler.io](https://pythoncompiler.io/?utm_source=github&utm_medium=practice-repo) - the free online Python compiler.
 <!-- /pythoncompiler:files -->
