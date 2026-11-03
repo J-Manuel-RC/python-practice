@@ -48,16 +48,16 @@ else:
   negativos = len(numNegativos)
   sumaMayores = sum(numPositivos)
   sumaMenores = sum(numNegativos)
-  mayor = max(numPositivos) if positivos > 0 else 0
+  mayor = max(numPositivos + numNegativos)
   
-resumen = f"""
-=====================================
-      Positivos:         {positivos}
-      Negativos:         {negativos}
-      Suma de positivos: {sumaMayores}
-      suma de negativos: {sumaMenores}
-      Numero mayor:      {mayor}
-=====================================
-"""
+  resumen = f"""
+  =====================================
+        Positivos:         {positivos}
+        Negativos:         {negativos}
+        Suma de positivos: {sumaMayores}
+        suma de negativos: {sumaMenores}
+        Numero mayor:      {mayor}
+  =====================================
+  """
 
-print(resumen)
+  print(resumen)
