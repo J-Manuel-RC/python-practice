@@ -12,20 +12,19 @@ Requisitos:
 """
 
 try:
-  num1 = float(input("Numero 1: "))
-  num2 = float(input("Numero 2: "))
+    num1 = float(input("Numero 1: "))
+    num2 = float(input("Numero 2: "))
 
-  resultado = num1 / num2
+    resultado = num1 / num2
+
+except ValueError:
+    print("Valor incorrecto. Debes ingresar numeros.")
 
 except ZeroDivisionError:
-  if num2 == 0:
-    print("No se puede dividir con 0")
-    
-except ValueError:
-  print("Valor incorrecto")
+    print("No se puede dividir entre cero.")
 
 else:
-  print(f"El resultado es: {resultado}")
+    print(f"El resultado es: {resultado}")
 
 finally:
-  print("Operacoon finalizada")
+    print("Operacion finalizada")
