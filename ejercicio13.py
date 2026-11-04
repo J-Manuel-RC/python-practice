@@ -37,3 +37,4 @@ Carrera: {estudiante["Carrera"]}
 
 print(resumen)
 imprimir()
+#print(estudiante.items())
