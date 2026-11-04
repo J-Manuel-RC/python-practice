@@ -13,6 +13,7 @@ No setup needed. Each badge opens the file in a free online Python editor and ru
 | [`ejercicio11.py`](./ejercicio11.py) | [![Run in Python Compiler](https://pythoncompiler.io/badge-run.svg)](https://pythoncompiler.io/?gh=J-Manuel-RC/python-practice/main/ejercicio11.py) |
 | [`ejercicio12.py`](./ejercicio12.py) | [![Run in Python Compiler](https://pythoncompiler.io/badge-run.svg)](https://pythoncompiler.io/?gh=J-Manuel-RC/python-practice/main/ejercicio12.py) |
 | [`ejercicio13.py`](./ejercicio13.py) | [![Run in Python Compiler](https://pythoncompiler.io/badge-run.svg)](https://pythoncompiler.io/?gh=J-Manuel-RC/python-practice/main/ejercicio13.py) |
+| [`ejercicio14.py`](./ejercicio14.py) | [![Run in Python Compiler](https://pythoncompiler.io/badge-run.svg)](https://pythoncompiler.io/?gh=J-Manuel-RC/python-practice/main/ejercicio14.py) |
 | [`ejercicio2.py`](./ejercicio2.py) | [![Run in Python Compiler](https://pythoncompiler.io/badge-run.svg)](https://pythoncompiler.io/?gh=J-Manuel-RC/python-practice/main/ejercicio2.py) |
 | [`ejercicio3.py`](./ejercicio3.py) | [![Run in Python Compiler](https://pythoncompiler.io/badge-run.svg)](https://pythoncompiler.io/?gh=J-Manuel-RC/python-practice/main/ejercicio3.py) |
 | [`ejercicio4.py`](./ejercicio4.py) | [![Run in Python Compiler](https://pythoncompiler.io/badge-run.svg)](https://pythoncompiler.io/?gh=J-Manuel-RC/python-practice/main/ejercicio4.py) |
