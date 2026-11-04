@@ -17,17 +17,25 @@ Reto adicional: evita que el usuario ingrese índices negativos, ya que Python p
 
 productos = ["Laptop", "Mouse", "Teclado", "Monitor", "Impresora"]
 
-try:
-  indice = int(input("Selecciona un indice del 1 al 5: "))
+def validar_indice(indice):
+    while indice < 1:
+        print("Solo se permiten valores positivos desde 1.")
+        indice = int(input("Selecciona un indice del 1 al 5: "))
 
-  print(productos[indice - 1])
-  
+    return indice
+
+try:
+    indice = int(input("Selecciona un indice del 1 al 5: "))
+
+    indice = validar_indice(indice)
+
+    print(productos[indice - 1])
+
 except ValueError:
-   print("DEbe introducir un numero")
+    print("Debe introducir un numero.")
 
 except IndexError:
-  print("El indice indicado no existe. Seleccione del 1 al 5")
+    print("El indice indicado no existe.")
 
-except:
-  if indice < 1:
-    print("Solo valores del 1 al 5")
+else:
+    print("Consulta exitosa...")
