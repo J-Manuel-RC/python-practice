@@ -39,6 +39,6 @@ for codigo in productos:
   """)
   for clave, valor in productos[codigo].items():
     print(f"{clave} : {valor}")
-    total += productos[codigo]["Precio"] * productos[codigo]["Stock"]
+  total += productos[codigo]["Precio"] * productos[codigo]["Stock"]
 
 print(f"\nValor total del inventario: S/ {total:.2f}")
