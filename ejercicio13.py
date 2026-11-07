@@ -21,8 +21,8 @@ estudiante = {
   "Ciclo académico" : 4
 }
 
-def imprimir():
-  for clave, valor in estudiante.items():
+def imprimir(datos):
+  for clave, valor in datos.items():
     print(f"{clave} : {valor}")
 
 estudiante.update({"Edad" : 31})
@@ -36,5 +36,5 @@ Carrera: {estudiante["Carrera"]}
 """
 
 print(resumen)
-imprimir()
+imprimir(estudiante)
 #print(estudiante.items())
