@@ -15,17 +15,17 @@ Conceptos: diccionarios anidados, items() y acumuladores.
 """
 
 productos = {
-  "P001" :{
+  "P001" : {
     "Nombre" : "Arroz",
     "Precio" : 4.30,
     "Stock" : 100
   },
-  "P002" :{
+  "P002" : {
     "Nombre" : "Azucar",
     "Precio" : 4.50,
     "Stock" : 150
   },
-  "P003" :{
+  "P003" : {
     "Nombre" : "Fideos",
     "Precio" : 4.00,
     "Stock" : 200
@@ -33,8 +33,12 @@ productos = {
 }
 
 total = 0
-for clave, valor in productos.items():
-  print(f"{clave} : {valor}")
-  total += {productos[clave]["Precio"]} * {productos[clave]["Stock"]}
+for codigo in productos:
+  print("""
+========================
+  """)
+  for clave, valor in productos[codigo].items():
+    print(f"{clave} : {valor}")
+    total += productos[codigo]["Precio"] * productos[codigo]["Stock"]
 
-print(total)
+print(f"\nValor total del inventario: S/ {total:.2f}")
