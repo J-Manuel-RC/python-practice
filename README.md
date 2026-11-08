@@ -8,6 +8,7 @@ No setup needed. Each badge opens the file in a free online Python editor and ru
 
 | File | |
 | --- | --- |
+| [`16_conjuntos.py`](./16_conjuntos.py) | [![Run in Python Compiler](https://pythoncompiler.io/badge-run.svg)](https://pythoncompiler.io/?gh=J-Manuel-RC/python-practice/main/16_conjuntos.py) |
 | [`ejercicio1.py`](./ejercicio1.py) | [![Run in Python Compiler](https://pythoncompiler.io/badge-run.svg)](https://pythoncompiler.io/?gh=J-Manuel-RC/python-practice/main/ejercicio1.py) |
 | [`ejercicio10.py`](./ejercicio10.py) | [![Run in Python Compiler](https://pythoncompiler.io/badge-run.svg)](https://pythoncompiler.io/?gh=J-Manuel-RC/python-practice/main/ejercicio10.py) |
 | [`ejercicio11.py`](./ejercicio11.py) | [![Run in Python Compiler](https://pythoncompiler.io/badge-run.svg)](https://pythoncompiler.io/?gh=J-Manuel-RC/python-practice/main/ejercicio11.py) |
