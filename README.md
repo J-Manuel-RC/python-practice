@@ -28,6 +28,7 @@ No setup needed. Each badge opens the file in a free online Python editor and ru
 | [`ejercicio8.py`](./ejercicio8.py) | [![Run in Python Compiler](https://pythoncompiler.io/badge-run.svg)](https://pythoncompiler.io/?gh=J-Manuel-RC/python-practice/main/ejercicio8.py) |
 | [`ejercicio9.py`](./ejercicio9.py) | [![Run in Python Compiler](https://pythoncompiler.io/badge-run.svg)](https://pythoncompiler.io/?gh=J-Manuel-RC/python-practice/main/ejercicio9.py) |
 | [`n2-01-arrays.py`](./n2-01-arrays.py) | [![Run in Python Compiler](https://pythoncompiler.io/badge-run.svg)](https://pythoncompiler.io/?gh=J-Manuel-RC/python-practice/main/n2-01-arrays.py) |
+| [`n2-02-arrays.py`](./n2-02-arrays.py) | [![Run in Python Compiler](https://pythoncompiler.io/badge-run.svg)](https://pythoncompiler.io/?gh=J-Manuel-RC/python-practice/main/n2-02-arrays.py) |
 
 Made with [pythoncompiler.io](https://pythoncompiler.io/?utm_source=github&utm_medium=practice-repo) - the free online Python compiler.
 <!-- /pythoncompiler:files -->
