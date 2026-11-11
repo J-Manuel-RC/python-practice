@@ -21,3 +21,22 @@ Construye un informe que permita obtener:
 5. Una selección de las ventas de los días 2, 3 y 4, correspondientes a las sucursales 1 y 2.
 Condición: resuelve todo mediante indexación y slicing. No utilices bucles.
 """
+
+resumen = f"""
+1. Todas las ventas del tercer día:
+{ventas[2:3, :]}
+
+2. Todas las ventas de la cuarta sucursal:
+{ventas[:, 3:]}
+
+3. Las ventas de los primeros tres días:
+{ventas[:3, :]}
+
+4. Las ventas de los dos últimos días:
+{ventas[3:, :]}
+
+5. Una selección de las ventas de los días 2, 3 y 4, correspondientes a las sucursales 1 y 2:
+{ventas[1:4, 1:3]}
+"""
+
+print(resumen)
