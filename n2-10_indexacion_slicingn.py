@@ -1,6 +1,7 @@
 """
+Ejercicio 2 — Trabajando con matrices
 Una empresa registra sus ventas en tres sucursales durante cuatro días
-Crea esta matriz:
+Representadas en la siguiente matriz:
 """
 import numpy as np
 ventas = np.array([
@@ -18,3 +19,19 @@ Utilizando indexación, imprime:
 4. La venta del cuarto día en la tercera sucursal.
 Recuerda: las filas representan los días y las columnas representan las sucursales.
 """
+
+resumen =f"""
+Ventas 1er dia:
+{ventas[:, :1]}
+
+Ventas 3er dia:
+{ventas[:, 2:]}
+
+Ventas 2da sucursal de los 4 dias:
+{ventas[:, 1:2]}
+
+Venta 4to dia de 3ra sucursal:
+{ventas[3:, 2:]}
+"""
+
+print(resumen)
