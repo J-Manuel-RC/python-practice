@@ -26,13 +26,13 @@ Recuerda que los índices comienzan en cero.
 
 resumen =f"""
 Calificaciones 1er estudiante:
-{calificaciones[:1, :]}
+{calificaciones[0, :]}
   
 Calificaciones estudiantes 2,3 y 4:
 {calificaciones[1:4, :]}
 
 Calificaciones 2da asignatura de todos los estudiantes:
-{calificaciones[:, 1:2]}
+{calificaciones[:, 1]}
 
 Subamatriz de los estudiantes 1, 2 y 3, y las columnas de las asignaturas 2 y 3:
 {calificaciones[:3, 1:3]}
