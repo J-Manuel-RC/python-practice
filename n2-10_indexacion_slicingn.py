@@ -21,17 +21,14 @@ Recuerda: las filas representan los días y las columnas representan las sucursa
 """
 
 resumen =f"""
-Ventas 1er dia:
-{ventas[:, :1]}
-
-Ventas 3er dia:
-{ventas[:, 2:]}
-
-Ventas 2da sucursal de los 4 dias:
-{ventas[:, 1:2]}
-
-Venta 4to dia de 3ra sucursal:
-{ventas[3:, 2:]}
+1. Las ventas del primer día:
+{ventas[0, :]}
+2. Las ventas del tercer día:
+{ventas[2, :]}
+3. Las ventas de la segunda sucursal durante los cuatro días:
+{ventas[:, 1]}
+4. La venta del cuarto día en la tercera sucursal:
+{ventas[3, 2]}
 """
 
 print(resumen)
