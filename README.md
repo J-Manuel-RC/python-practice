@@ -41,6 +41,7 @@ No setup needed. Each badge opens the file in a free online Python editor and ru
 | [`n2-12_indexacion_slicing.py`](./n2-12_indexacion_slicing.py) | [![Run in Python Compiler](https://pythoncompiler.io/badge-run.svg)](https://pythoncompiler.io/?gh=J-Manuel-RC/python-practice/main/n2-12_indexacion_slicing.py) |
 | [`n2-13_indexacion_slicing.py`](./n2-13_indexacion_slicing.py) | [![Run in Python Compiler](https://pythoncompiler.io/badge-run.svg)](https://pythoncompiler.io/?gh=J-Manuel-RC/python-practice/main/n2-13_indexacion_slicing.py) |
 | [`n2-14_indexacion_slicing.py`](./n2-14_indexacion_slicing.py) | [![Run in Python Compiler](https://pythoncompiler.io/badge-run.svg)](https://pythoncompiler.io/?gh=J-Manuel-RC/python-practice/main/n2-14_indexacion_slicing.py) |
+| [`n2-15_indexacion_slicing.py`](./n2-15_indexacion_slicing.py) | [![Run in Python Compiler](https://pythoncompiler.io/badge-run.svg)](https://pythoncompiler.io/?gh=J-Manuel-RC/python-practice/main/n2-15_indexacion_slicing.py) |
 
 Made with [pythoncompiler.io](https://pythoncompiler.io/?utm_source=github&utm_medium=practice-repo) - the free online Python compiler.
 <!-- /pythoncompiler:files -->
