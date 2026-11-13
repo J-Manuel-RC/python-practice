@@ -36,7 +36,7 @@ resumen = f"""
 {ventas[3:, :]}
 
 5. Una selección de las ventas de los días 2, 3 y 4, correspondientes a las sucursales 1 y 2:
-{ventas[1:4, 1:3]}
+{ventas[1:4, 0:2]}
 """
 
 print(resumen)
